@@ -12,4 +12,4 @@ Please report any issues that you find to the [issues](https://github.com/contai
 * [buildah.io](https://buildah.io) - Blogs about Buildah
 
 ## Chat
-Talk to the Podman Developers!  If you've an immediate question, we hang out on IRC at #podman on freenode.
+Talk to the Podman Developers!  If you have an immediate question, we hang out on IRC at #podman on freenode.
