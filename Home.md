@@ -1,4 +1,4 @@
-https://podman.io/images/podman.svg
+![Podman](https://podman.io/images/podman.svg)
 
 Welcome to the libpod/Podman wiki!
 
