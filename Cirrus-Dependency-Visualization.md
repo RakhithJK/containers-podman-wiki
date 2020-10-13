@@ -1,3 +1,3 @@
-Cirrus task dependencies make my brain spin, so I wrote a quick tool to use [graphviz](https://graphviz.org/) for a simple diagram. Here's what we have as of 2020-09-13, after the commit of #7485.
+Cirrus task dependencies make my brain spin, so I wrote a quick tool to use [graphviz](https://graphviz.org/) for a simple diagram. Here's what we have as of 2020-10-13, reflecting the "Cirrus 2.0" structure (#6784) plus subsequent fixes.
 
-![Cirrus Dependencies as of 2020-09-13](http://www.edsantiago.com/x/cirrus-map-podman-20200913.png)
+![Cirrus Dependencies as of 2020-10-13](cirrus-map.png)
