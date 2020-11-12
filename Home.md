@@ -1,6 +1,6 @@
 ![Podman](https://podman.io/images/podman.svg)
 
-Welcome to the libpod/Podman wiki!
+Welcome to the Podman wiki!
 
 This wiki will be used for the topics related to the [Podman](https://github.com/containers/libpod) project on [GitHub](https://github.com).
 
