@@ -19,7 +19,7 @@ graphroot = "/data/containers/storage"
 
 ## Move the graphroot to an ephemeral mount
 
-This completely isolates podman state from the rest of the system. In the following example I'll be using a default tmps mount, `/run` but the same principle also applies to, for instance, a btrs or zfs dataset that is rolled back to am empty snapshot on boot. This is useful when you're launching fresh containers from systemd units and as such don't need to persist podman state.
+This completely isolates podman state from the rest of the system. In the following example I'll be using a default tmpfs mount, `/run` but the same principle also applies to, for instance, a btrs or zfs dataset that is rolled back to am empty snapshot on boot. This is useful when you're launching fresh containers from systemd units and as such don't need to persist podman state.
 
 Inside your `storage.conf` file, under the `[storage]` section, change `graphroot`. For example:
 
