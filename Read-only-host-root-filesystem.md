@@ -32,7 +32,7 @@ graphroot = "/run/containers/storage"
 
 Simply doing that means you are going to pull images in memory every time the host is rebooted. If this is not the desired behavior you can use the [additional image stores](https://www.redhat.com/sysadmin/image-stores-podman) feature, which works with either ro or rw mounts. 
 
-This is very useful when you have control over the rootfs before it goes read-only, i.e. you're rolling A/B rootfs updates which boot read-only or simply because ext4 went read-only because of some unexpected io issue. 
+This is very useful when you have control over the rootfs before it goes read-only, i.e. you're rolling A/B rootfs updates which boot read-only or simply because ext4 went read-only because of some unexpected I/O issue. 
 
 Still in `storage.conf` you could do something like this:
 
