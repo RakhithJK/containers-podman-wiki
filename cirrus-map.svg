@@ -16,8 +16,32 @@
 <polygon fill="none" stroke="blue" stroke-width="2" points="31.16,-911.5 31.16,-972.5 157.16,-972.5 157.16,-911.5 31.16,-911.5"/>
 <text text-anchor="start" x="39.16" y="-957.3" font-family="Times-Roman" font-size="14.00" fill="blue">automation</text>
 <polyline fill="none" stroke="blue" stroke-width="2" points="31.16,-949.5 157.16,-949.5 "/>
-<text text-anchor="start" x="39.16" y="-934.3" font-family="Times-Roman" font-size="14.00" fill="blue">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="39.16" y="-919.3" font-family="Times-Roman" font-size="14.00" fill="blue">[SKIP: TAG]</text>
+<text id="skip_branch_automation" text-anchor="start" x="39.16" y="-934.3" font-family="Times-Roman" font-size="14.00" fill="blue">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_automation" text-anchor="start" x="39.16" y="-919.3" font-family="Times-Roman" font-size="14.00" fill="blue">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- validate -->
 <g id="node2" class="node">
@@ -25,8 +49,32 @@
 <polygon fill="none" stroke="orange" stroke-width="2" points="243.16,-875.5 243.16,-936.5 369.16,-936.5 369.16,-875.5 243.16,-875.5"/>
 <text text-anchor="start" x="251.16" y="-921.3" font-family="Times-Roman" font-size="14.00" fill="orange">validate</text>
 <polyline fill="none" stroke="orange" stroke-width="2" points="243.16,-913.5 369.16,-913.5 "/>
-<text text-anchor="start" x="251.16" y="-898.3" font-family="Times-Roman" font-size="14.00" fill="orange">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="251.16" y="-883.3" font-family="Times-Roman" font-size="14.00" fill="orange">[SKIP: TAG]</text>
+<text id="skip_branch_validate" text-anchor="start" x="251.16" y="-898.3" font-family="Times-Roman" font-size="14.00" fill="orange">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_validate" text-anchor="start" x="251.16" y="-883.3" font-family="Times-Roman" font-size="14.00" fill="orange">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- automation&#45;&gt;validate -->
 <g id="edge1" class="edge">
@@ -40,7 +88,24 @@
 <polygon fill="none" stroke="red" stroke-width="2" points="486.66,-1048 486.66,-1094 581.66,-1094 581.66,-1048 486.66,-1048"/>
 <text text-anchor="start" x="494.66" y="-1078.8" font-family="Times-Roman" font-size="14.00" fill="red">apiv2_test</text>
 <polyline fill="none" stroke="red" stroke-width="2" points="486.66,-1071 581.66,-1071 "/>
-<text text-anchor="start" x="494.66" y="-1055.8" font-family="Times-Roman" font-size="14.00" fill="red">[SKIP: TAG]</text>
+<text id="skip_tag_apiv2_test" text-anchor="start" x="494.66" y="-1055.8" font-family="Times-Roman" font-size="14.00" fill="red">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- validate&#45;&gt;apiv2_test -->
 <g id="edge2" class="edge">
@@ -54,8 +119,38 @@
 <polygon fill="none" stroke="#ff3030" stroke-width="2" points="471.16,-950.5 471.16,-1011.5 597.16,-1011.5 597.16,-950.5 471.16,-950.5"/>
 <text text-anchor="start" x="479.16" y="-996.3" font-family="Times-Roman" font-size="14.00" fill="#ff3030">compose_test</text>
 <polyline fill="none" stroke="#ff3030" stroke-width="2" points="471.16,-988.5 597.16,-988.5 "/>
-<text text-anchor="start" x="479.16" y="-973.3" font-family="Times-Roman" font-size="14.00" fill="#ff3030">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="479.16" y="-958.3" font-family="Times-Roman" font-size="14.00" fill="#ff3030">[SKIP: TAG]</text>
+<text id="skip_ci:docs_compose_test" text-anchor="start" x="479.16" y="-973.3" font-family="Times-Roman" font-size="14.00" fill="#ff3030">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_compose_test" text-anchor="start" x="479.16" y="-958.3" font-family="Times-Roman" font-size="14.00" fill="#ff3030">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- validate&#45;&gt;compose_test -->
 <g id="edge3" class="edge">
@@ -74,8 +169,38 @@
 <text text-anchor="start" x="436.66" y="-828.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">&#45; Unit tests on ubuntu&#45;2010</text>
 <text text-anchor="start" x="436.66" y="-813.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">&#45; Unit tests on ubuntu&#45;2004</text>
 <polyline fill="none" stroke="#8b2500" stroke-width="2" points="428.66,-805.5 639.66,-805.5 "/>
-<text text-anchor="start" x="436.66" y="-790.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="436.66" y="-775.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">[SKIP: TAG]</text>
+<text id="skip_ci:docs_unit_test" text-anchor="start" x="436.66" y="-790.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_unit_test" text-anchor="start" x="436.66" y="-775.3" font-family="Times-Roman" font-size="14.00" fill="#8b2500">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- validate&#45;&gt;unit_test -->
 <g id="edge4" class="edge">
@@ -110,9 +235,46 @@
 <text text-anchor="start" x="692.16" y="-983.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">&#45; int podman fedora&#45;33 root container</text>
 <text text-anchor="start" x="692.16" y="-968.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">&#45; int podman fedora&#45;32 root container</text>
 <polyline fill="none" stroke="darkturquoise" stroke-width="2" points="684.16,-961 964.16,-961 "/>
-<text text-anchor="start" x="692.16" y="-945.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="692.16" y="-930.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="692.16" y="-915.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: TAG]</text>
+<text id="skip_ci:docs_container_integration_test" text-anchor="start" x="692.16" y="-945.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_branch_container_integration_test" text-anchor="start" x="692.16" y="-930.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_container_integration_test" text-anchor="start" x="692.16" y="-915.8" font-family="Times-Roman" font-size="14.00" fill="darkturquoise">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- unit_test&#45;&gt;container_integration_test -->
 <g id="edge9" class="edge">
@@ -129,9 +291,46 @@
 <text text-anchor="start" x="696.16" y="-850.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">&#45; int podman fedora&#45;33 rootless host</text>
 <text text-anchor="start" x="696.16" y="-835.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">&#45; int podman fedora&#45;32 rootless host</text>
 <polyline fill="none" stroke="deeppink" stroke-width="2" points="688.16,-828 960.16,-828 "/>
-<text text-anchor="start" x="696.16" y="-812.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="696.16" y="-797.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="696.16" y="-782.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: TAG]</text>
+<text id="skip_ci:docs_rootless_integration_test" text-anchor="start" x="696.16" y="-812.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_branch_rootless_integration_test" text-anchor="start" x="696.16" y="-797.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_rootless_integration_test" text-anchor="start" x="696.16" y="-782.8" font-family="Times-Roman" font-size="14.00" fill="deeppink">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- unit_test&#45;&gt;rootless_integration_test -->
 <g id="edge10" class="edge">
@@ -150,9 +349,46 @@
 <text text-anchor="start" x="698.16" y="-687.8" font-family="Times-Roman" font-size="14.00" fill="coral">&#45; int podman ubuntu&#45;2010 root host</text>
 <text text-anchor="start" x="698.16" y="-672.8" font-family="Times-Roman" font-size="14.00" fill="coral">&#45; int podman ubuntu&#45;2004 root host</text>
 <polyline fill="none" stroke="coral" stroke-width="2" points="690.16,-665 958.16,-665 "/>
-<text text-anchor="start" x="698.16" y="-649.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="698.16" y="-634.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="698.16" y="-619.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: TAG]</text>
+<text id="skip_ci:docs_local_integration_test" text-anchor="start" x="698.16" y="-649.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_branch_local_integration_test" text-anchor="start" x="698.16" y="-634.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_local_integration_test" text-anchor="start" x="698.16" y="-619.8" font-family="Times-Roman" font-size="14.00" fill="coral">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- unit_test&#45;&gt;local_integration_test -->
 <g id="edge11" class="edge">
@@ -171,9 +407,46 @@
 <text text-anchor="start" x="702.16" y="-524.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">&#45; int remote ubuntu&#45;2010 root host</text>
 <text text-anchor="start" x="702.16" y="-509.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">&#45; int remote ubuntu&#45;2004 root host</text>
 <polyline fill="none" stroke="#eed5b7" stroke-width="2" points="694.16,-502 954.16,-502 "/>
-<text text-anchor="start" x="702.16" y="-486.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="702.16" y="-471.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="702.16" y="-456.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: TAG]</text>
+<text id="skip_ci:docs_remote_integration_test" text-anchor="start" x="702.16" y="-486.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_branch_remote_integration_test" text-anchor="start" x="702.16" y="-471.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_remote_integration_test" text-anchor="start" x="702.16" y="-456.8" font-family="Times-Roman" font-size="14.00" fill="#eed5b7">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- unit_test&#45;&gt;remote_integration_test -->
 <g id="edge12" class="edge">
@@ -182,12 +455,29 @@
 <polygon fill="#8b2500" stroke="#8b2500" points="688.76,-602.49 693.92,-593.23 684.11,-597.25 688.76,-602.49"/>
 </g>
 <!-- release -->
-<g id="node7" class="node">
+<g id="node7" class="node" opacity="0.2">
 <title>release</title>
 <polygon fill="none" stroke="darkgreen" stroke-width="2" points="1463.66,-411 1463.66,-457 1560.66,-457 1560.66,-411 1463.66,-411"/>
 <text text-anchor="start" x="1471.66" y="-441.8" font-family="Times-Roman" font-size="14.00" fill="darkgreen">release</text>
 <polyline fill="none" stroke="darkgreen" stroke-width="2" points="1463.66,-434 1560.66,-434 "/>
-<text text-anchor="middle" x="1512.16" y="-418.8" font-family="Times-Roman" font-size="14.00" fill="darkgreen">[only if tag]</text>
+<text id="onlyif_tag_release" text-anchor="middle" x="1512.16" y="-418.8" font-family="Times-Roman" font-size="14.00" fill="darkgreen">[only if tag]</text>
+<set attributeName="opacity" to="1.0" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="1.0" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
 </g>
 <!-- success&#45;&gt;release -->
 <g id="edge6" class="edge">
@@ -201,7 +491,7 @@
 <polygon fill="none" stroke="#43cd80" stroke-width="2" points="1462.66,-346 1462.66,-392 1561.66,-392 1561.66,-346 1462.66,-346"/>
 <text text-anchor="start" x="1470.66" y="-376.8" font-family="Times-Roman" font-size="14.00" fill="#43cd80">release_test</text>
 <polyline fill="none" stroke="#43cd80" stroke-width="2" points="1462.66,-369 1561.66,-369 "/>
-<text text-anchor="middle" x="1512.16" y="-353.8" font-family="Times-Roman" font-size="14.00" fill="#43cd80">[only if PR]</text>
+<text id="onlyif_pr_release_test" text-anchor="middle" x="1512.16" y="-353.8" font-family="Times-Roman" font-size="14.00" fill="#43cd80">[only if PR]</text>
 </g>
 <!-- success&#45;&gt;release_test -->
 <g id="edge7" class="edge">
@@ -224,8 +514,38 @@
 <text text-anchor="start" x="1018.66" y="-836.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">&#45; sys podman fedora&#45;33 rootless host</text>
 <text text-anchor="start" x="1018.66" y="-821.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">&#45; sys podman fedora&#45;32 rootless host</text>
 <polyline fill="none" stroke="#009acd" stroke-width="2" points="1010.66,-813.5 1287.66,-813.5 "/>
-<text text-anchor="start" x="1018.66" y="-798.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="1018.66" y="-783.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">[SKIP: TAG]</text>
+<text id="skip_ci:docs_rootless_system_test" text-anchor="start" x="1018.66" y="-798.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_rootless_system_test" text-anchor="start" x="1018.66" y="-783.3" font-family="Times-Roman" font-size="14.00" fill="#009acd">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- rootless_integration_test&#45;&gt;rootless_system_test -->
 <g id="edge14" class="edge">
@@ -244,8 +564,38 @@
 <text text-anchor="start" x="1020.66" y="-671.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">&#45; sys podman ubuntu&#45;2010 root host</text>
 <text text-anchor="start" x="1020.66" y="-656.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">&#45; sys podman ubuntu&#45;2004 root host</text>
 <polyline fill="none" stroke="dodgerblue" stroke-width="2" points="1012.66,-648.5 1285.66,-648.5 "/>
-<text text-anchor="start" x="1020.66" y="-633.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="1020.66" y="-618.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">[SKIP: TAG]</text>
+<text id="skip_ci:docs_local_system_test" text-anchor="start" x="1020.66" y="-633.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_local_system_test" text-anchor="start" x="1020.66" y="-618.3" font-family="Times-Roman" font-size="14.00" fill="dodgerblue">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- local_integration_test&#45;&gt;local_system_test -->
 <g id="edge16" class="edge">
@@ -264,8 +614,38 @@
 <text text-anchor="start" x="1024.66" y="-513.3" font-family="Times-Roman" font-size="14.00" fill="indigo">&#45; sys remote ubuntu&#45;2010 root host</text>
 <text text-anchor="start" x="1024.66" y="-498.3" font-family="Times-Roman" font-size="14.00" fill="indigo">&#45; sys remote ubuntu&#45;2004 root host</text>
 <polyline fill="none" stroke="indigo" stroke-width="2" points="1016.66,-490.5 1281.66,-490.5 "/>
-<text text-anchor="start" x="1024.66" y="-475.3" font-family="Times-Roman" font-size="14.00" fill="indigo">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="1024.66" y="-460.3" font-family="Times-Roman" font-size="14.00" fill="indigo">[SKIP: TAG]</text>
+<text id="skip_ci:docs_remote_system_test" text-anchor="start" x="1024.66" y="-475.3" font-family="Times-Roman" font-size="14.00" fill="indigo">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_remote_system_test" text-anchor="start" x="1024.66" y="-460.3" font-family="Times-Roman" font-size="14.00" fill="indigo">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- remote_integration_test&#45;&gt;remote_system_test -->
 <g id="edge18" class="edge">
@@ -314,9 +694,46 @@
 <polygon fill="none" stroke="#ee799f" stroke-width="2" points="471.16,-410 471.16,-486 597.16,-486 597.16,-410 471.16,-410"/>
 <text text-anchor="start" x="479.16" y="-470.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">bindings</text>
 <polyline fill="none" stroke="#ee799f" stroke-width="2" points="471.16,-463 597.16,-463 "/>
-<text text-anchor="start" x="479.16" y="-447.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="479.16" y="-432.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: BRANCH]</text>
-<text text-anchor="start" x="479.16" y="-417.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: TAG]</text>
+<text id="skip_ci:docs_bindings" text-anchor="start" x="479.16" y="-447.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_branch_bindings" text-anchor="start" x="479.16" y="-432.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: BRANCH]</text>
+<set attributeName="opacity" to="0.1" begin="skip_branch_automation.mouseover" end="skip_branch_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_bindings.mouseover" end="skip_branch_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_container_integration_test.mouseover" end="skip_branch_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_local_integration_test.mouseover" end="skip_branch_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_remote_integration_test.mouseover" end="skip_branch_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_rootless_integration_test.mouseover" end="skip_branch_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_branch_validate.mouseover" end="skip_branch_validate.mouseout" />
+<text id="skip_tag_bindings" text-anchor="start" x="479.16" y="-417.8" font-family="Times-Roman" font-size="14.00" fill="#ee799f">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- build&#45;&gt;bindings -->
 <g id="edge21" class="edge">
@@ -330,7 +747,24 @@
 <polygon fill="none" stroke="#473c8b" stroke-width="2" points="485.16,-345 485.16,-391 583.16,-391 583.16,-345 485.16,-345"/>
 <text text-anchor="start" x="493.16" y="-375.8" font-family="Times-Roman" font-size="14.00" fill="#473c8b">consistency</text>
 <polyline fill="none" stroke="#473c8b" stroke-width="2" points="485.16,-368 583.16,-368 "/>
-<text text-anchor="start" x="493.16" y="-352.8" font-family="Times-Roman" font-size="14.00" fill="#473c8b">[SKIP: TAG]</text>
+<text id="skip_tag_consistency" text-anchor="start" x="493.16" y="-352.8" font-family="Times-Roman" font-size="14.00" fill="#473c8b">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- build&#45;&gt;consistency -->
 <g id="edge22" class="edge">
@@ -344,8 +778,38 @@
 <polygon fill="none" stroke="#8b8878" stroke-width="2" points="761.16,-292.5 761.16,-353.5 887.16,-353.5 887.16,-292.5 761.16,-292.5"/>
 <text text-anchor="start" x="769.16" y="-338.3" font-family="Times-Roman" font-size="14.00" fill="#8b8878">docker&#45;py_test</text>
 <polyline fill="none" stroke="#8b8878" stroke-width="2" points="761.16,-330.5 887.16,-330.5 "/>
-<text text-anchor="start" x="769.16" y="-315.3" font-family="Times-Roman" font-size="14.00" fill="#8b8878">[SKIP: CI:DOCS]</text>
-<text text-anchor="start" x="769.16" y="-300.3" font-family="Times-Roman" font-size="14.00" fill="#8b8878">[SKIP: TAG]</text>
+<text id="skip_ci:docs_dockerpy_test" text-anchor="start" x="769.16" y="-315.3" font-family="Times-Roman" font-size="14.00" fill="#8b8878">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
+<text id="skip_tag_dockerpy_test" text-anchor="start" x="769.16" y="-300.3" font-family="Times-Roman" font-size="14.00" fill="#8b8878">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- build&#45;&gt;docker&#45;py_test -->
 <g id="edge23" class="edge">
@@ -371,7 +835,20 @@
 <polygon fill="none" stroke="#eecfa1" stroke-width="2" points="243.16,-203 243.16,-249 369.16,-249 369.16,-203 243.16,-203"/>
 <text text-anchor="start" x="251.16" y="-233.8" font-family="Times-Roman" font-size="14.00" fill="#eecfa1">static_alt_build</text>
 <polyline fill="none" stroke="#eecfa1" stroke-width="2" points="243.16,-226 369.16,-226 "/>
-<text text-anchor="start" x="251.16" y="-210.8" font-family="Times-Roman" font-size="14.00" fill="#eecfa1">[SKIP: CI:DOCS]</text>
+<text id="skip_ci:docs_static_alt_build" text-anchor="start" x="251.16" y="-210.8" font-family="Times-Roman" font-size="14.00" fill="#eecfa1">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
 </g>
 <!-- build&#45;&gt;static_alt_build -->
 <g id="edge25" class="edge">
@@ -403,7 +880,20 @@
 <text text-anchor="start" x="235.16" y="-46.3" font-family="Times-Roman" font-size="14.00" fill="#8b8b00">&#45; Test build RPM</text>
 <text text-anchor="start" x="235.16" y="-31.3" font-family="Times-Roman" font-size="14.00" fill="#8b8b00">&#45; Alt Arch. Cross</text>
 <polyline fill="none" stroke="#8b8b00" stroke-width="2" points="227.16,-23.5 385.16,-23.5 "/>
-<text text-anchor="start" x="235.16" y="-8.3" font-family="Times-Roman" font-size="14.00" fill="#8b8b00">[SKIP: CI:DOCS]</text>
+<text id="skip_ci:docs_alt_build" text-anchor="start" x="235.16" y="-8.3" font-family="Times-Roman" font-size="14.00" fill="#8b8b00">[SKIP: CI:DOCS]</text>
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_alt_build.mouseover" end="skip_ci:docs_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_bindings.mouseover" end="skip_ci:docs_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_compose_test.mouseover" end="skip_ci:docs_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_container_integration_test.mouseover" end="skip_ci:docs_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_dockerpy_test.mouseover" end="skip_ci:docs_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_integration_test.mouseover" end="skip_ci:docs_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_local_system_test.mouseover" end="skip_ci:docs_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_integration_test.mouseover" end="skip_ci:docs_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_remote_system_test.mouseover" end="skip_ci:docs_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_integration_test.mouseover" end="skip_ci:docs_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_rootless_system_test.mouseover" end="skip_ci:docs_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_static_alt_build.mouseover" end="skip_ci:docs_static_alt_build.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_ci:docs_unit_test.mouseover" end="skip_ci:docs_unit_test.mouseout" />
 </g>
 <!-- build&#45;&gt;alt_build -->
 <g id="edge27" class="edge">
@@ -459,7 +949,24 @@
 <polygon fill="none" stroke="brown" stroke-width="2" points="36.16,-846 36.16,-892 152.16,-892 152.16,-846 36.16,-846"/>
 <text text-anchor="start" x="44.16" y="-876.8" font-family="Times-Roman" font-size="14.00" fill="brown">ext_svc_check</text>
 <polyline fill="none" stroke="brown" stroke-width="2" points="36.16,-869 152.16,-869 "/>
-<text text-anchor="start" x="44.16" y="-853.8" font-family="Times-Roman" font-size="14.00" fill="brown">[SKIP: TAG]</text>
+<text id="skip_tag_ext_svc_check" text-anchor="start" x="44.16" y="-853.8" font-family="Times-Roman" font-size="14.00" fill="brown">[SKIP: TAG]</text>
+<set attributeName="opacity" to="0.1" begin="skip_tag_apiv2_test.mouseover" end="skip_tag_apiv2_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_automation.mouseover" end="skip_tag_automation.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_bindings.mouseover" end="skip_tag_bindings.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_compose_test.mouseover" end="skip_tag_compose_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_consistency.mouseover" end="skip_tag_consistency.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_container_integration_test.mouseover" end="skip_tag_container_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_dockerpy_test.mouseover" end="skip_tag_dockerpy_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_ext_svc_check.mouseover" end="skip_tag_ext_svc_check.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_integration_test.mouseover" end="skip_tag_local_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_local_system_test.mouseover" end="skip_tag_local_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_integration_test.mouseover" end="skip_tag_remote_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_remote_system_test.mouseover" end="skip_tag_remote_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_integration_test.mouseover" end="skip_tag_rootless_integration_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_rootless_system_test.mouseover" end="skip_tag_rootless_system_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_unit_test.mouseover" end="skip_tag_unit_test.mouseout" />
+<set attributeName="opacity" to="0.1" begin="skip_tag_validate.mouseover" end="skip_tag_validate.mouseout" />
+<set attributeName="opacity" to="0.1" begin="onlyif_tag_release.mouseover" end="onlyif_tag_release.mouseout" />
 </g>
 <!-- ext_svc_check&#45;&gt;validate -->
 <g id="edge35" class="edge">
