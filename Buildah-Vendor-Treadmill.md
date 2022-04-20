@@ -1,4 +1,4 @@
-[ 2022-04-19 this is still under development ]
+[ 2022-04-20 this is still under development ]
 
 This document describes the **Buildah Vendor Treadmill**, a two-part system used for easing the burden of vendoring buildah into podman. The two parts are:
 
@@ -19,11 +19,15 @@ We will cover those in reverse order, because chances are you're here for vendor
 
 Target Audience: **developer vendoring buildah into podman**
 
-Most of the time it'll go smoothly. If you're reading this it's because things haven't gone smoothly. Most likely the **bud** tests are failing: either the patching step, or the `bud` tests themselves. You should now run, from your buildah-vendor branch:
+Most of the time the vendoring will go smoothly. If you're reading this it's because things haven't gone smoothly. Most likely the **bud** tests are failing: either the patching step, or the `bud` tests themselves. You should now run, from your buildah-vendor branch:
 ```console
 $ hack/buildah-vendor-treadmill --pick
 ```
-This will identify the treadmill PR (currently #13808 as of 2022-04-19) and cherry-pick its patches onto your branch. If Ed hasn't been slacking, this will resolve your vendoring problems and you can `git commit --amend` then `git push --force` and make it past CI.
+This will identify the treadmill PR (currently #13808 as of 2022-04-19) and cherry-pick its patches onto your branch. If Ed hasn't been slacking, this will resolve your vendoring problems and you can `git commit --amend` (to update the commit message) then `git push --force` and make it past CI.
+
+As of this writing (2022-04-20) this process only works when vendoring into `main`. If you need to vendor a new buildah into a maintenance branch, I'm sorry, you're on your own. (But chances are good that someone has already vendored that buildah into main, and you can cherry-pick the required changes).
+
+As we gain experience with this process, please update this document to reflect best practices.
 
 ***
 
@@ -34,7 +38,7 @@ Target audience: **someone willing to run the sync step daily, and fix problems*
 - run the `sync` step
 - fix problems if they arise
 
-
+As of the past two weeks in which I've been playing with this, it has been super easy: the process works cleanly:
 
 ```console
 $ hack/buildah-vendor-treadmill --update
@@ -77,3 +81,7 @@ Applied patch tests/helpers.bash cleanly.
 |
 +--->  --- Reminder: New buildah, new podman. Good candidate for pushing.
 ```
+
+On two occasions it hasn't worked cleanly, and those are the ugly ones, and that's why Ed gets paid the Big Red Hat Bucks: there's a conflict. In those cases I've basically just followed the procedures for when this happens on a real vendor PR, then git-committed my changes, then `git rebase -i HEAD^^^` to `fixup` that commit into the first one.
+
+I haven't much tested the case where `podman main` brings in a newly-vendored buildah with the treadmill changes incorporated. Again, this is a work in progress.
