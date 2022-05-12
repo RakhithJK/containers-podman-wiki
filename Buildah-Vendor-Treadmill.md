@@ -9,7 +9,7 @@ This document describes the **Buildah Vendor Treadmill**, a two-part system used
    1. `make vendor` to pull in current buildah @ main
    1. run a few tests; fix any problems
    1. (It's a little trickier than that, and for the most part Ed worries about it so you don't have to)
-2. **cherry-pick** - run ad hoc by a developer needing to vendor in a new buildah into podman. This
+2. **pick** - run ad hoc by a developer needing to vendor in a new buildah into podman. This
 is the part that you, dear reader, probably want to know about.
 
 We will cover those in reverse order, because chances are you're here for vendoring buildah.
@@ -90,4 +90,10 @@ On several occasions it hasn't worked cleanly, and those are the ugly ones, and 
 * **other test failures** - maybe the new `buildah bud` tests don't pass under `podman build` and you just don't want to deal with fixing them now. You can add `skip`s to `apply-podman-deltas`
 * **conflicts** - when applying the buildah-bud-under-podman patches. Usually happens when someone edits buildah's `helpers.bash`. Solution: see the [buildah bud tests README](https://github.com/containers/podman/blob/main/test/buildah-bud/README.md)
 
-I haven't much tested the case where `podman main` brings in a newly-vendored buildah with the treadmill changes incorporated. Again, this is a work in progress.
+---------
+
+There's also a slight corner case: after a new `buildah` is vendored into `podman`, the `sync` step will probably fail (because of conflicts, because the changes needed to bring in the vendor are probably slightly different than the ones Ed has been tweaking in the treadmill script). When this happens, the best solution is to start from scratch:
+* Check out your vendor_buildah branch
+* Drop all commits (i.e. make sure your vendor_buildah branch is a no-commit one. No buildah-vendor commit, no treadmill commit)
+* Move the `0000-buildah-vendor-treadmill.patch` file to a safe location, just in case
+* Run `hack/buildah-vendor-treadmill --reset`. This will create two dummy empty commits fitting the magic formula. Once those commits exist, `--sync` will start working again.
