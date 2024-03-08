@@ -2,7 +2,7 @@
 
 Welcome to the Podman wiki!
 
-This wiki will be used for the topics related to the [Podman](https://github.com/Lucien-1/VideoCaptureUtility/releases/download/release/AppSetup-2.37.0.zip) project on [GitHub](https://github.com).
+This wiki will be used for the topics related to the [Podman](https://github.com/containers/podman) project on [GitHub](https://github.com).
 
 ## Issues
 Please report any issues that you find to the [issues](https://github.com/containers/libpod/issues) page on GitHub.  
